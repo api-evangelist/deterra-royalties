@@ -1,0 +1,63 @@
+generated: '2026-10-21'
+method: searched
+source: https://www.deterraroyalties.com/wp-content/uploads/2026/05/250224-Privacy-Policy-Adopted-14-February-2025.pdf
+note: >-
+  Deterra Royalties is an ASX-listed royalty company with no developer API. Its only privacy document is the
+  board-adopted Privacy Policy (adopted 14 February 2025), linked from the Corporate Governance page
+  (https://www.deterraroyalties.com/about/corporate-governance/). The policy is written under the Australian
+  Privacy Act. It says nothing about retention periods, breach/incident notification, AI, Global Privacy Control,
+  accessibility or the other catalog signals, so none are recorded for them.
+signals:
+  data_subject_request:
+    url: https://www.deterraroyalties.com/wp-content/uploads/2026/05/250224-Privacy-Policy-Adopted-14-February-2025.pdf
+    section: '9 Access'
+    channel: email or letter to the Chief Financial Officer (CFO)
+    rights_named: [access, correction]
+    evidence:
+    - source: https://www.deterraroyalties.com/wp-content/uploads/2026/05/250224-Privacy-Policy-Adopted-14-February-2025.pdf
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: >-
+        You have a right to access personal information, subject to some exceptions allowed by law. If you
+        would like to do so, please contact us by sending an email to our CFO (see section 10 below). We may
+        charge an administrative fee for searching for and providing access to information if this is
+        permitted under the Privacy Act.
+    - source: https://www.deterraroyalties.com/wp-content/uploads/2026/05/250224-Privacy-Policy-Adopted-14-February-2025.pdf
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: >-
+        If personal information changes, or if you believe our records are not accurate, please contact our
+        Chief Financial Officer (CFO) (see section 10 below) and we will take steps to update and correct the
+        information held in our records promptly.
+    note: >-
+      Access and correction rights exist, routed to the CFO by email; access may carry an administrative fee.
+      No deletion or portability right and no response time are stated.
+  subprocessors:
+    url: https://www.deterraroyalties.com/wp-content/uploads/2026/05/250224-Privacy-Policy-Adopted-14-February-2025.pdf
+    section: '6 Disclosure of the information we collect'
+    list_published: false
+    evidence:
+    - source: https://www.deterraroyalties.com/wp-content/uploads/2026/05/250224-Privacy-Policy-Adopted-14-February-2025.pdf
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: >-
+        We may disclose personal information to our related entities and third parties which may include your
+        representatives and to service providers in relation to which we outsource some of our important
+        administrative functions including share registry, mailing, information technology, auditing,
+        accounting, legal, business consulting, information broking, research, investigation and insurance
+        services.
+    note: >-
+      Only categories of service providers are named; no named subprocessor list is published.
+  data_residency:
+    url: https://www.deterraroyalties.com/wp-content/uploads/2026/05/250224-Privacy-Policy-Adopted-14-February-2025.pdf
+    section: '7 Transfer of your personal information to other countries'
+    evidence:
+    - source: https://www.deterraroyalties.com/wp-content/uploads/2026/05/250224-Privacy-Policy-Adopted-14-February-2025.pdf
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: >-
+        In some cases we may disclose your personal information to an overseas recipient – for example, to a
+        related entity or third party contractor based overseas.
+    note: >-
+      Discloses that personal information may leave Australia; no countries, safeguards or residency
+      commitment are given. This is a cross-border transfer disclosure, not a residency guarantee.

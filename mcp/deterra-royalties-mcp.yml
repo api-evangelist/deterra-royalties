@@ -1,0 +1,13 @@
+generated: '2026-10-21'
+method: none
+status: none
+search_result:
+  official_hosted_server: none
+  preflight_verdict: 'contract_discovery.verdict.mcp: absent on api.deterraroyalties.com, deterraroyalties.com, www.deterraroyalties.com (preflight 2026-10-21)'
+  web_search: '"Deterra Royalties" MCP server OR API developer -- no result names the company (only unrelated "Terra" MCP servers by tryterra)'
+  finding: Deterra Royalties Limited is an ASX-listed metal royalty company. It publishes a corporate and investor website but no developer API, OpenAPI contract or MCP server. There is no OpenAPI to derive a candidate tool list from, so no tools are listed.
+tools: []
+deployment:
+  mode: none
+  auth: unknown
+  verified: searched

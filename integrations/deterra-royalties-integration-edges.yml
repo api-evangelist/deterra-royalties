@@ -1,0 +1,19 @@
+generated: '2026-10-21'
+method: none
+source:
+- https://zapier.com/apps/deterra-royalties/integrations
+- https://n8n.io/integrations/deterra-royalties/
+- https://composio.dev/toolkits/deterra-royalties
+- https://monid.ai/tools/deterra-royalties
+checked:
+- https://zapier.com/apps/deterra-royalties/integrations
+- https://n8n.io/integrations/deterra-royalties/
+- https://www.deterraroyalties.com/
+- https://composio.dev/toolkits/deterra-royalties
+- https://monid.ai/tools/deterra-royalties
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
+note: Deterra Royalties is an ASX-listed metals royalty company with a corporate/investor website only; no developer
+  API, integrations page or marketplace listing was found.

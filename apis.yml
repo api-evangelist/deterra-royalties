@@ -1,23 +1,97 @@
 aid: deterra-royalties
+
 name: Deterra Royalties
-description: 'Deterra Royalties is a company surfaced via the API Evangelist harvest backlog (source:
-  australia-apidays-2026) and added to the network as a stub for full-pipeline profiling.'
+
+description: Deterra Royalties (Deterra Royalties Limited) is an ASX-listed resources company that specialises
+  in the acquisition and management of metal royalty and stream interests. It provides royalty financing
+  to mine developers and operators, acquires existing third-party royalties, and holds royalties over
+  assets such as BHP's Mining Area C, Lithium Americas' Thacker Pass project and Ivanhoe Electric's Santa
+  Cruz copper project. Its corporate website publishes investor information and ASX announcements; no
+  public developer API, API documentation or developer portal is published.
+
 url: https://raw.githubusercontent.com/api-evangelist/deterra-royalties/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:australia-apidays-2026
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-21 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-21'
+
 modified: '2026-10-21'
+
 tags:
 - Company
-apis: []
+- Mining
+- Royalties
+- Resources
+- Investment
+- Australia
+- ASX
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
+image: https://www.deterraroyalties.com/wp-content/uploads/2026/05/cropped-Deterra-favicon-192x192.png
+
 common:
+- type: Hosts
+  url: hosts/deterra-royalties-hosts.yml
+- type: DomainSecurity
+  url: security/deterra-royalties-domain-security.yml
 - type: Website
-  url: https://deterraroyalties.com/
+  url: https://www.deterraroyalties.com/
+- type: Support
+  url: https://www.deterraroyalties.com/contact/
+- type: PrivacyPolicy
+  url: https://www.deterraroyalties.com/wp-content/uploads/2026/05/250224-Privacy-Policy-Adopted-14-February-2025.pdf
+- type: Disclaimer
+  url: https://www.deterraroyalties.com/disclaimer/
+- type: Investors
+  url: https://www.deterraroyalties.com/investors/
+- type: News
+  url: https://www.deterraroyalties.com/investors/asx-announcements/
+- type: RSSFeed
+  url: https://www.deterraroyalties.com/feed/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/deterra-royalties/
+
+apis: []
+
+x-coverage:
+  state: covered
+  reason: identity-verified
+  detail: Website verified by homepage naming Deterra Royalties Limited; no developer portal, API docs
+    or API reference found on the site nav/footer or sitemap links.
+  evidence:
+  - url: https://deterraroyalties.com/
+    status: 200
+  - url: https://www.deterraroyalties.com/
+    status: 200
+  - url: https://www.deterraroyalties.com/what-we-do/
+    status: 200
+  - url: https://www.deterraroyalties.com/contact/
+    status: 200
+  - url: https://www.deterraroyalties.com/disclaimer/
+    status: 200
+  - url: https://www.deterraroyalties.com/wp-content/uploads/2026/05/250224-Privacy-Policy-Adopted-14-February-2025.pdf
+    status: 200
+  - url: https://www.deterraroyalties.com/investors/asx-announcements/
+    status: 200
+  - url: https://www.deterraroyalties.com/feed/
+    status: 200
+  - url: https://www.linkedin.com/company/deterra-royalties/
+    status: 200
+x-enrichment:
+  date: '2026-10-21'
+  status: enriched
+  artifacts_added: 8
+  pass: modular-v1
+  engine: identity=anthropic,contract=anthropic,surfaces=anthropic,docs=anthropic,regulatory=anthropic
